@@ -1,7 +1,7 @@
 Fairy±i(also named iFairy)
 # Abstract
 Fairy±i (iFairy) is the first 2-bit complex-valued large language model, where all weights are constrained to {±1, ±i}. By introducing complex-valued architectures and a novel quantization scheme, iFairy achieves efficient compression with minimal accuracy loss. Experiments show that it consistently outperforms existing 2-bit methods (e.g., BitNet b1.58) and approaches full-precision models on language modeling and reasoning benchmarks.
-# Evalation
+# Evaluation
 ## Evaluation Results
 **Table: Perplexity on WikiText2 and C4 validation sets (lower is better)**
 
@@ -191,3 +191,5 @@ For larger-scale training, you can adjust additional accelerate parameters in th
 - [Fairy±i-700M on ModelScope](https://modelscope.cn/models/PKUDSLAB1806/Fairy-plus-minus-i-700M)
 - [Fairy±i-1.3B on ModelScope](https://modelscope.cn/models/PKUDSLAB1806/Fairy-plus-minus-i-1.3B)
 
+## Paper
+- [iFairy: the First 2-bit Complex LLM with All Parameters in {±1, ±i}](https://arxiv.org/abs/2508.05571)
